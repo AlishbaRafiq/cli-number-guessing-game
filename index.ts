@@ -8,6 +8,8 @@ import inquirer from "inquirer";
 
 // compare user input with computer generated random number and show the result -Done
 
+console.log("Welcome to  'alishbarafiq' CLI-Number-Guessing-Game!");
+
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 
 const answers = await inquirer.prompt([

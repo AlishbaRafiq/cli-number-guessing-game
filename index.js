@@ -3,6 +3,7 @@ import inquirer from "inquirer";
 // 1. computer will generate a random number - Done
 // 2. computer will ask the user to guess the random number - Done
 // compare user input with computer generated random number and show the result -Done
+console.log("Welcome to  'alishbarafiq' CLI-Number-Guessing-Game!");
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 const answers = await inquirer.prompt([
     {
